@@ -1,0 +1,63 @@
+body {
+  background-color: #ffd;
+  color: #232020;
+  font-size: 1em;
+  font-family: "Oswald";
+  width: 338px;
+  margin: auto;
+}
+
+div#form {
+  border: 2px solid #000;
+  margin: 1em 1em -2px 0em;
+  padding: 1em;
+  width: 300px;
+}
+
+div#form button, div#form input, div#form #formDropdown option {
+  background-color: #fff;
+  color: #444;
+  font-size: 1em;
+}
+
+div#form input {
+  width: 255px;
+}
+
+div#form input::-webkit-input-placeholder {
+  color: #4448;
+}
+
+div#form input:-ms-input-placeholder {
+  color: #4448;
+}
+
+div#form input::-ms-input-placeholder {
+  color: #4448;
+}
+
+div#form input::placeholder {
+  color: #4448;
+}
+
+div#form button {
+  width: 83px;
+}
+
+div#form #formDropdown {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: .4em 1em;
+}
+
+div#form #formDropdown option {
+  text-decoration: none;
+}
+
+#canvasGfx {
+  border: 2px solid #000;
+  margin: 0 1em 1em 0em;
+  padding: 0;
+}
+/*# sourceMappingURL=main.css.map */

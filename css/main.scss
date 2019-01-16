@@ -1,0 +1,47 @@
+body {
+    background-color: #ffd;
+    color: #232020;
+    font-size: 1em;
+    font-family: "Oswald";
+
+    width: 338px;
+    margin: auto;
+  }
+  
+  div#form{
+    border: 2px solid #000;
+    margin: 1em 1em -2px 0em;
+    padding: 1em;
+
+    width: 300px;
+
+    button, input, #formDropdown option{
+        background-color: #fff;
+        color: #444;
+        font-size: 1em;
+    }
+    input{
+        width: 255px;
+    }
+    input::placeholder{
+        color:#4448;
+    }
+    button{
+        width: 83px;
+    }
+    #formDropdown{
+        appearance: none;
+
+        padding: .4em 1em;
+        option{
+            text-decoration: none;   
+        }
+    }
+    
+  }
+
+  #canvasGfx{
+      border: 2px solid #000;
+      margin: 0 1em 1em 0em;
+      padding: 0;
+  }
